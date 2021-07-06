@@ -13,9 +13,10 @@ const Navbar = () => {
     return (
         <nav>
             <div className="nav-wrapper teal lighten-2">
-                <ul id="nav-mobile" className="left hide-on-med-and-down">
-                    <a className="waves-effect waves-light btn blue-grey darken-1" onClick={logoutHandler} > logout </a>
-                </ul>
+
+
+                <button className="waves-effect waves-light btn blue-grey darken-1" onClick={logoutHandler}> logout
+                </button>
             </div>
         </nav>
     );
