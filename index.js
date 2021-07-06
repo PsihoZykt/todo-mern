@@ -26,7 +26,7 @@ async function start() {
                 useCreateIndex: true,
             }, () => console.log('DB has been connected')
         )
-        app.listen(PORT, () => console.log(`App has been started on port ${PORT}`))
+        app.listen(process.env.PORT || PORT || 5000, () => console.log(`App has been started on port ${PORT}`))
             .on("error", (err) => console.log(err))
     } catch (e) {
      console.log(e)
