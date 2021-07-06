@@ -1,0 +1,5 @@
+{
+    "port": 5000,
+    "mongo_url": "mongodb+srv://psihoz_ykt:Pp89241735187@cluster0.rp2fj.gcp.mongodb.net/todos?retryWrites=true&w=majority",
+    "jwtSecret": "1234567890"
+}

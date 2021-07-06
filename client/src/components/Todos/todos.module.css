@@ -1,0 +1,63 @@
+.todoItem {
+    margin-top: 10px;
+    padding: 20px;
+
+}
+.row {
+    width: 400px;
+}
+.addTask {
+    width: 400px;
+
+}
+.container {
+    margin-left: 20px
+}
+
+.deleteButton {
+    display: inline-block;
+    border: none;
+    /*padding: 10px;*/
+    /*margin: 0;*/
+    text-decoration: none;
+    background: #ffffff;
+    color: teal;
+    font-family: sans-serif;
+    font-size: 20px;
+    /*line-height: 1;*/
+    /*cursor: pointer;*/
+    text-align: center;
+    /*transition: background 250ms ease-in-out, transform*/
+}
+
+.todoText {
+    color:white;
+    line-height: 1rem;
+    text-align: center;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+.completedCheckbox {
+    width: 20px;
+    position: relative;
+    left: 200px;
+    vertical-align: middle;
+}
+
+.checkboxLabel {
+    /*width: 200px;*/
+
+    position: relative;
+    /*left: -20px;*/
+
+    display: inline-block;
+    vertical-align: middle;
+}
+.loader {
+    padding-bottom: 40px;
+}
+.disabled {
+    color: red
+}
