@@ -13,9 +13,10 @@ app.use(express.json()) // Без этих  строк сервер не вид�
 app.use('/api/auth', authRouter)
 app.use('/api/todo', todoRouter)
 if(process.env.NODE_ENV === "production")  {
+    console.log(xpress.static(path.join(__dirname, 'client', 'build' ))
     app.use('/', express.static(path.join(__dirname, 'client', 'build' )))
     app.get('*', (req,res) => {
-        console.log(path.resolve(__dirname, "client", "build", "index.html"))
+        console.log(path.resolve("todos", "client", "build", "index.html"))
         res.sendFile(path.resolve(__dirname, "client", "build", "index.html"))
     })
 }
