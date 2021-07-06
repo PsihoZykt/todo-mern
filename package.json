@@ -2,7 +2,7 @@
   "name": "todos",
   "version": "1.0.0",
   "engines": {
-    "node": "16.*",
+    "node": "16.*"
   },
   "description": "",
   "main": "index.js",
